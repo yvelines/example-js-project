@@ -4,7 +4,8 @@
   "description": "This an example JS project that is used in the Advanced Git course on Pluralsight",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "lint": "eslint index.js lib/**.js"
   },
   "repository": {
     "type": "git",
